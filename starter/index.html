@@ -21,15 +21,7 @@
 ​
     <!-- max-width for ultra wide resolutions -->
     <div class="container-fluid" style="max-width: 1400px">
-      <div class="row">
-        <!-- This is the search section div-->
-​
-        <aside class="col-lg-12 pb-3 build">
-          <!---->
-​
-          <h2 id="form-heading" class="mt-1 h3 form-label">
-            Search for a City:
-          </h2>
+      <div class="row">​
 ​
           <!--The search component-->
 ​
@@ -37,57 +29,30 @@
             <div class="form-group">
               <div class="input-group d-flex flex-column">
                 <label class="form-label">Search Term:</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  id="search-term"
-                />
-                <label class="form-label">Number of Records to Retrieve:</label>
-                <input
-                class="form-input"
-                type="text"
-                id="number-of-records"
-                />
-                <label class="form-label">Start Year (Optional):</label>
-                <input
-                class="form-input"
-                type="text"
-                id="start-year"
-                />
-                <label class="form-label">End Year (Optional):</label>
-                <input class="form-input" type="text" id="end-year"
-                />
+                <input class="form-input" type="text" id="search-term" />
 
-                <button
-                    type="submit"
-                    class="btn mt-2 btn-primary search-button col-12"
-                    id="search-button"
-                    aria-label="submit search"
-                  >
+                <label class="form-label">Number of Records to Retrieve:</label>
+                <input class="form-input" type="text" id="number-of-records" />
+
+                <label class="form-label">Start Year (Optional):</label>
+                <input class="form-input" type="text" id="start-year" />
+
+                <label class="form-label">End Year (Optional):</label>
+                <input class="form-input" type="text" id="end-year" />
+
+                <button type="submit" class="btn mt-2 btn-primary search-button col-12" id="search-button" aria-label="submit search">
                     Search
-                  </button>
-                  <button
-                  class="btn mt-2 btn-primary search-button col-12"
-                  id="search-button"
-                  aria-label="submit search"
-                >
+                </button>
+                
+                <button class="btn mt-2 btn-primary search-button col-12" id="clear-button">
                   Clear
                 </button>
 
-                  <hr class="hr weather-hr" />
                 </div>
               </div>
             </div>
           </form>
-​
-          <!--This is where to put the history section-->
-​
-          <div class="list-group" id="history">
-            <!-- for when building out the history buttons -->
-            <button class="btn mt-2 btn-secondary col-12">Cambridge</button>
-          </div>
-        </aside>
-​
+​​
         <!-- This is the main div containing the weather forecast data-->
       </div>
     </div>
